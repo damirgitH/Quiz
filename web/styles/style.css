@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
+.wrapper {
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("https://sotni.ru/wp-content/uploads/2023/08/multiashnyi-peizazh-106.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 0;
+}
+
+.start_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start_content-inner {
+  width: 420px;
+  height: 450px;
+  padding: 50px 30px;
+  background: transparent;
+  border: solid 2px white;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+}
+
+.title-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 27px;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+
+.btn-start-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  gap: 30px;
+  transform: translateX(93px);
+  padding-bottom: 65px;
+}
+
+.logoAitu-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.logoAitu {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-start {
+  width: 170px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 7px 13px;
+  transition: all 0.2s ease-in;
+  text-transform: capitalize;
+  letter-spacing: 0.07em;
+}
+.btn-start:active {
+  scale: 125%;
+}
+.btn-start:hover {
+  background: linear-gradient(225deg, #4eaaff 0%, rgba(238, 0, 79, 0.42) 56.5%, rgba(255, 0, 0, 0) 97.88%);
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 100px;
+}
+.register .login_logo {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 1px;
+  left: 54px;
+}
+.register .register_logo {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 143px;
+  top: 2px;
+}
+.register a {
+  position: relative;
+}
+.register a::before {
+  content: "";
+  bottom: -9px;
+  left: 0;
+  width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+.register a:hover::before {
+  width: 100%;
+}
+.login_link-a:active{
+  scale: 120%;
+}
+.btn-start:hover{
+  scale: 110%;
+}
+/**/

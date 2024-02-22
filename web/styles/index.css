@@ -1,0 +1,117 @@
+body {
+  background-image: url("https://sotni.ru/wp-content/uploads/2023/08/multiashnyi-peizazh-106.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  position: relative;
+
+}
+.container_main{
+  height: 100vh;
+}
+.container_main-inner{
+  padding: 40px 60px;
+  width: 1000px;
+  height: 800px;
+  backdrop-filter: blur(30px);
+  transform: translateX(331px) translateY(61px);
+  border: 2px solid white;
+}
+.titleMain{
+  transform: translateX(400px) translateY(-11px);
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+.back-box_link:hover{
+  scale: 120%;
+}
+.logoAitu{
+  height: 60px;
+  width: 60px;
+  transform: translateX(465px);
+  padding-bottom: 15px;
+}
+
+.container_main-input{
+  transform: translateX(190px);
+}
+.container_main-input-control{
+  padding: 5px 30px;
+  width: 400px;
+  height: 40px;
+  outline: none;
+  border-radius: 20px;
+  transition: all 0.3s ease-in;
+}
+.container_main-input-control:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.container_main-input-label{
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.container_main-input-btn{
+  transform: translateX(-33px) translateY(2px);
+  font-size: 20px;
+  border: none;
+  padding: -6px 12px;
+  cursor: pointer;
+  outline: none;
+  color: deepskyblue;
+  background: transparent;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.container_main-input-btn:hover{
+  scale: 120%;
+  background: deepskyblue;
+  color: white;
+
+}
+.Title{
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+.Completed{
+  padding-left: 10px;
+  padding-bottom: 30px;
+
+}
+.container-fluid-main{
+  font-size: 30px;
+  margin-top: 30px;
+  transform: translateX(250px);
+}
+
+td:first-child{
+  padding-right: 200px;
+  border-right: 1px solid white;
+
+}
+td input{
+  margin-left: 120px;
+  height: 30px;
+  width: 30px;
+  transition: all 0.3s ease-in;
+}
+td input:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.clear-all-checkbox_item {
+    transform: translateY(-235px) translateX(11px);
+}
+.container_main-input{
+  transform: translateX(29px);
+}
+.container-fluid-main_table{
+    transform: translateX(-32px);
+}
+.blurred {
+    filter: blur(5px);  /* Измените значение по своему усмотрению */
+    cursor: pointer;    /* Добавьте указатель мыши для ясности */
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <div class="container_main" id="main-container">
+        <div class="container_main-inner">
+            <div class="back-box">
+                <a class="back-box_link" href="../main.html">
+                    <svg class="back-box_link" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.825 9L9.425 14.6L8 16L0 8L8 0L9.425 1.4L3.825 7H16V9H3.825Z" fill="#000" />
+                    </svg>
+                </a>
+                <div class="logoAitu-box">
+                    <img class="logoAitu" src="../img/logo.png" alt="Logo">
+            </div>
+            </div>
+            <h1 class="titleMain">Make card</h1>
+
+            <div class="container_main-input">
+                <input type="text" class="container_main-input-control container_main-input-control-top" id="todo-title-input" minlength="5" maxlength="50" placeholder="Question zone..">
+                <input type="text" class="container_main-input-control" id="todo-completed-input" placeholder="Answer zone..">
+                <button type="submit" class="container_main-input-btn" id="todo-add-btn">&plus;</button>
+                <input class="clear-all-checkbox_item" type="checkbox" id="clear-all-checkbox">
+            </div>
+            <div class="container-fluid-main">
+                <table class="container-fluid-main_table">
+                    <thead>
+                        <th class="Title">Question:</th>
+                        <th class="Completed">Answer:</th>
+                    </thead>
+                    <tbody  id="todo-table-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="/eel.js" ></script>
+    <script src="../jquery/jquery.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
